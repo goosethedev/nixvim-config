@@ -1,19 +1,7 @@
 {
   imports = [
-    ./options.nix  # vim.opt vim.g ...
-    ./keymaps.nix  # keymaps = {...}
-    ./plugins      # all plugins
+    ./plugins      # All plugins
+    ./keymaps.nix  # All keymaps
+    ./options.nix  # Everything else (vim.opts, colorschemes, etc)
   ];
-
-  # Other configs
-  config = {
-
-    clipboard.providers.wl-copy.enable = true;
-
-    colorschemes.catppuccin = {
-      enable = true;
-      flavour = "mocha";
-    };
-    
-  };
 }

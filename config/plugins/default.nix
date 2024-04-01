@@ -11,7 +11,9 @@
     # ./indent-blankline.nix
     ./lsp.nix
     ./lualine.nix
+    ./none-ls.nix
     ./nvim-tree.nix
+    ./persistence.nix
     ./telescope.nix
     ./toggleterm.nix
     ./treesitter.nix

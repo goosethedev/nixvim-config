@@ -3,9 +3,13 @@
     enable = true;
 
     registrations = {
-      "<leader>f" = "Files (Telescope/NvimTree)";
+      "<leader>b" = "Buffers (Bufferline)";
+      "<leader>f" = "File Explorer (Telescope/NvimTree)";
+      "<leader>p" = "Sessions (Persistence)";
       "<leader>t" = "Terminal (ToggleTerm)";
-      "<leader>w" = "Windows";
+      "<leader>u" = "UI Toggles";
+      "<leader>w" = "Window Management";
+      "<leader>x" = "Save/Quit";
     };
   };
 }
